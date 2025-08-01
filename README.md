@@ -5,10 +5,25 @@ Berikut adalah soal/pertanyaan yang perlu dijawab oleh peserta maggang
 ## knowledge base
 
 1. Apa yang anda ketahui tentang Rest API?
+api (aplication programming interface) adalah sebuah service yang menghubungkan atau menjembatani antara dua komponen secara terpisah
+
 2. Apa yang anda ketahui tentang Server side and Client side processing?
+
+-Clien side processing adalah suatu proses yang berjalan saat client melakukan proses validasi form sebelum dikirim,animasi dan ganti tampilan tanpa reload. -sementara server side processing adalah proses yang terjadi di server. proses yang menangani validasi autentikasi, authorisasi dan semua yang berhubungan dengan data sensitif di proses di server side.
+
 3. Apa yang anda ketahui tentang Monolith dan Microservices, berikan contohnya?
-4. Apa yang anda ketahui tentang Design pattern inversion of Control serta Dependency Injection?
+
+-design arsitektur monolith adalah sebuah pendekatan di mana seluruh bagian dari aplikasi dibangun dan dijalankan dalam satu kesatuan utuh. Artinya, semua fitur dan komponen dalam sistem dijadikan satu proyek aplikasi yang besar, menggunakan satu basis kode, satu proses build, satu proses deploy, dan biasanya juga satu database. 
+-sementara microservice arsitektur adalah pendekatan arsitekturyang memecah aplikasi menjadi layanan-layanan kecil (micro), di mana setiap layanan bertanggung jawab atas satu fitur atau fungsi spesifik, dan dapat dijalankan secara independen.
+4. Apa yang anda ketahui tentang Design pattern inversion of Control serta Dependency Injection? 
+
+-Inversion of Control secara harfiah berarti “pembalikan kendali”.sebuah prinsip desain dalam pemrograman yang membalikkan cara tradisional dalam mengelola kontrol suatu aplikasi. Dalam paradigma tradisional, kode aplikasi kita yang mengontrol dan memanggil library atau framework. Namun, dalam IoC, kontrol tersebut diserahkan kepada sebuah kontainer atau kerangka kerja yang bertugas mengelola pembuatan, konfigurasi, dan siklus hidup objek-objek dalam aplikasi. 
+-Dependency Injection adalah salah satu cara implementasi dari IoC.
+Jadi setelah kita membalik kendali pembuatan objek ke framework, cara menyuntikkan objek itu ke dalam class yang membutuhkannya disebut dependency injection (penyuntikan ketergantungan).
+
 5. Apa yang anda ketahui tentang Java programming dan Spring framework khususnya spring-boot?
+
+Java Spring Boot adalah kerangka kerja (framework) berbasis Java yang dibangun di atas Spring Framework. Spring Boot dirancang untuk menyederhanakan pengembangan aplikasi Java, terutama aplikasi web dan layanan mikro, dengan mengurangi kompleksitas konfigurasi.
 
 ## Design modules
 
